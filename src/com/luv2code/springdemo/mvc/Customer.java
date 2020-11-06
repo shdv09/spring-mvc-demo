@@ -16,6 +16,7 @@ public class Customer {
     @Max(value = 10, message = "must be less than or equal to 10")
     private Integer freePasses;
 
+
     public String getFirstName() {
         return firstName;
     }
