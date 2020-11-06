@@ -14,6 +14,7 @@ public class Customer {
 
     @Min(value = 0, message = "must be greater or equal to 0")
     @Max(value = 10, message = "must be less than or equal to 10")
+    @NotNull(message="is required")
     private Integer freePasses;
 
 
